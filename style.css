@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -15,7 +15,7 @@
 header {
    position:relative;
    height: 8rem;
-   background: #333;
+   background: #E9967A;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -26,11 +26,12 @@ header {
     font-size: 2rem;
     color: white;
   }
-
   nav {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 3rem;
+     right: 3rem;
+    font-size: 1rem;
+    background: #E9967A;
   }
 
     nav ul{
@@ -39,7 +40,7 @@ header {
     }
 
     nav ul li{
-      margin-right: 2rem;
+      margin-right: 1rem;
     }
 
     nav ul li a {
@@ -48,8 +49,13 @@ header {
 
 main{
   display: flex;
+  width: 85%;
+  max-width: 1280px;
+  margin: 0 auto;
   flex-direction: row;
 }
+
+
 
   section{
     flex: 3;
@@ -73,6 +79,6 @@ main{
 footer {
   padding: 2rem 3rem;
   text-align: center;
-  background: #333;
+  background: #E9967A;
   color: white;
 }
